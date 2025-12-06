@@ -49,11 +49,11 @@ export default function AdminPage() {
 	return (
 		<div className="w-full h-full bg-primary flex p-2 text-secondary">
 			<div className="w-[300px] h-full bg-primary flex flex-col items-center gap-[20px]">
-				<div className="flex flex-row w-[90%] h-[70px] bg-accent items-center rounded-2xl mb-[20px]">
+				<div className="flex flex-row w-[90%] h-[60px] bg-accent items-center rounded-2xl mb-[20px]">
 					<img
 						src="/logo.png"
-						alt="CBC - Crystal Beauty Clear"
-						className="h-[70px]"
+						alt="BeautifyMe"
+						className="h-[110px]"
 					/>
 					<span className="text-white text-xl  ml-4">Admin panel</span>
 				</div>

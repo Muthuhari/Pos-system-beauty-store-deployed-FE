@@ -47,15 +47,15 @@ export default function RegisterPage() {
 
 			{/* Layout */}
 			<div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 w-full">
-                <div className="flex items-center justify-center p-6 sm:p-10">
+        <div className="flex items-center justify-center sm:p-10">
 					<div className="w-full max-w-md">
-						<div className="rounded-3xl backdrop-blur-xl bg-white/10 border border-white/20 shadow-2xl p-8 sm:p-10">
-							<div className="mb-8 flex flex-col items-center text-center">
-								<img
+						<div className="rounded-3xl backdrop-blur-xl bg-white/10 border border-white/20 shadow-2xl sm:p-10">
+							<div className="flex flex-col items-center text-center">
+								{/*<img
 									src="/logo.png"
-									alt="CBC Logo"
-									className="h-12 w-auto mb-4"
-								/>
+									alt="BeautifyMe"
+									className="h-10 w-auto"
+								/>*/}
 						
 							</div>
 
@@ -171,20 +171,20 @@ export default function RegisterPage() {
 
 						{/* Small footer for mobile */}
 						<p className="mt-6 text-center text-primary/80 text-xs lg:hidden">
-							© {new Date().getFullYear()} CBC – Crystal Beauty Clear
+							© {new Date().getFullYear()} BeautifyMe
 						</p>
 					</div>
 				</div>
 				{/* Left side hero */}
 				<div className="hidden lg:flex flex-col justify-between p-10">
-					<div className="flex items-center gap-4">
+					<div className="flex items-center gap-1">
 						<img
 							src="/logo.png"
-							alt="CBC - Crystal Beauty Clear"
-							className="h-10 w-auto"
+							alt="BeautifyMe"
+							className="h-30 w-auto "
 						/>
 						<span className="text-primary/90 tracking-wide font-semibold">
-							CBC • Crystal Beauty Clear
+							BeautifyMe
 						</span>
 					</div>
 
@@ -202,7 +202,7 @@ export default function RegisterPage() {
 					</div>
 
 					<p className="text-primary/80 text-sm">
-						© {new Date().getFullYear()} CBC – Crystal Beauty Clear. All rights
+						© {new Date().getFullYear()} BeautifyMe. All rights
 						reserved.
 					</p>
 				</div>

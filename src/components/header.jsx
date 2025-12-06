@@ -32,7 +32,7 @@ export default function Header() {
 								/>
 								<img
 									src="/logo.png"
-									className="  h-full  w-[170px]   object-cover"
+									className="  h-full  w-[270px]   object-cover"
 								/>
 							</div>
 							<a href="/" className="p-4 border-b border-secondary/10">
